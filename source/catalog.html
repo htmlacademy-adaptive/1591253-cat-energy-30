@@ -10,27 +10,29 @@
 </head>
 
 <body class="page__body">
-  <header class="header">
+  <header class="main-header">
     <div class="logo">
       <a class="main-header__logo logo" href="index.html">
-        <img class="logo__image logo__image--icon" src="./images/logo/logo-pic.svg" width="70" height="59" alt="Магазин Cat Energy">
-        <img class="logo__image logo__image--text" src="./images/logo/logo-text-1.svg" width="118" height="21" alt="Магазин Cat Energy">
-    </a>
+        <img class="logo__image logo__image--icon" src="./images/logo/logo-pic.svg" width="70" height="59"
+          alt="Магазин Cat Energy">
+        <img class="logo__image logo__image--text" src="./images/logo/logo-text-1.svg" width="118" height="21"
+          alt="Магазин Cat Energy">
+      </a>
     </div>
-    <nav class="maim-nav">
-      <button class="main-nav__toggle" type="button">
+    <nav class="main-nav">
+      <button class="main-nav__toggle button-burger" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
       <div class="main-nav__wrapper">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a class="main-nav__link main-nav__link" href="index.html">Главная</a>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link site-list__link--current" href="index.html">Главная</a>
           </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link main-nav__link--current" href="index.html" aria-current="page">Каталог продукции</a>
+          <li class="site-list__item">
+            <a class="site-list__link" href="catalog.html" aria-current="page">Каталог продукции</a>
           </li>
-          <li class="main-nav__list-item">
-            <a href="#" class="main-menu-link">Подбор программы</a>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Подбор программы</a>
           </li>
         </ul>
       </div>
@@ -38,13 +40,13 @@
   </header>
 
   <main class="main-container">
-    <section class="catalog-products">
-      <h1 class="catalog-products_title title">Каталог продукции</h1>
+    <section class="catalog">
+      <h1 class="catalog__title title">Каталог продукции</h1>
       <h2 class="visually-hidden">Список найденных продуктов</h2>
 
       <ul class="catalog__list">
-        <li class="catalog__item catalog_item--chicken">
-          <a href="#" class="catalog__link">
+        <li class="catalog__item catalog__item--chicken">
+          <a class="catalog__link" href="#">
             <img class="catalog__image catalog__image--small" src="./images/catalog/catalog-1.png" alt="Cat Energy PRO
           500 г Курица" width="161" height="172">
             <div class="catalog__wrapper catalog__wrapper--primary">
@@ -63,13 +65,13 @@
                   <dd class="catalog__characteristics-number description-small">700 ₽</dd>
                 </div>
               </dl>
-              <button class="catalog__button--primary button" type="button">Заказать</button>
+              <button class="catalog__button button" type="button">Заказать</button>
             </div>
           </a>
         </li>
 
-        <li class="catalog__item catalog_item--chicken">
-          <a href="#" class="catalog__link">
+        <li class="catalog__item catalog__item--chicken">
+          <a class="catalog__link" href="#">
             <img class="catalog__image catalog__image--big" src="./images/catalog/catalog-2.png" alt="Cat Energy PRO
           1000 г Курица" width="172" height="196">
             <div class="catalog__wrapper catalog__wrapper--primary">
@@ -88,13 +90,13 @@
                   <dd class="catalog__characteristics-number description-small">1000 ₽</dd>
                 </div>
               </dl>
-              <button class="catalog__button--primary button" type="button">Заказать</button>
+              <button class="catalog__button button" type="button">Заказать</button>
             </div>
           </a>
         </li>
 
-        <li class="catalog__item catalog_item--fish">
-          <a href="#" class="catalog__link">
+        <li class="catalog__item catalog__item--fish">
+          <a class="catalog__link" href="#">
             <img class="catalog__image catalog__image--small" src="./images/catalog/catalog-3.png" alt="Cat Energy PRO
             500 г Рыба" width="161" height="172">
             <div class="catalog__wrapper catalog__wrapper--primary">
@@ -113,13 +115,13 @@
                   <dd class="catalog__characteristics-number description-small">700 ₽</dd>
                 </div>
               </dl>
-              <button class="catalog__button--primary button" type="button">Заказать</button>
+              <button class="catalog__button button" type="button">Заказать</button>
             </div>
           </a>
         </li>
 
-        <li class="catalog__item catalog_item--fish">
-          <a href="#" class="catalog__link">
+        <li class="catalog__item catalog__item--fish">
+          <a class="catalog__link" href="#">
             <img class="catalog__image catalog__image--big" src="./images/catalog/catalog-4.png" alt="Cat Energy PRO
           1000 г Рыба" width="172" height="196">
             <div class="catalog__wrapper catalog__wrapper--primary">
@@ -138,13 +140,13 @@
                   <dd class="catalog__characteristics-number description-small">1000 ₽</dd>
                 </div>
               </dl>
-              <button class="catalog__button--primary button" type="button">Заказать</button>
+              <button class="catalog__button button" type="button">Заказать</button>
             </div>
           </a>
         </li>
 
-        <li class="catalog__item catalog_item--wheat">
-          <a href="#" class="catalog__link">
+        <li class="catalog__item catalog__item--wheat">
+          <a class="catalog__link" href="#">
             <img class="catalog__image catalog__image--small" src="./images/catalog/catalog-5.png" alt="Cat Energy PRO
           500 г Гречка" width="161" height="172">
             <div class="catalog__wrapper catalog__wrapper--primary">
@@ -163,13 +165,13 @@
                   <dd class="catalog__characteristics-number description-small">400 ₽</dd>
                 </div>
               </dl>
-              <button class="catalog__button--primary button" type="button">Заказать</button>
+              <button class="catalog__button button" type="button">Заказать</button>
             </div>
           </a>
         </li>
 
-        <li class="catalog__item catalog_item--wheat">
-          <a href="#" class="catalog__link">
+        <li class="catalog__item catalog__item--wheat">
+          <a class="catalog__link" href="#">
             <img class="catalog__image catalog__image--big" src="./images/catalog/catalog-6.png" alt="Cat Energy PRO
           1000 г Гречка" width="172" height="196">
             <div class="catalog__wrapper catalog__wrapper--primary">
@@ -188,13 +190,13 @@
                   <dd class="catalog__characteristics-number description-small">700 ₽</dd>
                 </div>
               </dl>
-              <button class="catalog__button----primary button" type="button">Заказать</button>
+              <button class="catalog__button button" type="button">Заказать</button>
             </div>
           </a>
         </li>
 
-        <li class="catalog__item catalog_item--rice">
-          <a href="#" class="catalog__link">
+        <li class="catalog__item catalog__item--rice">
+          <a class="catalog__link" href="#">
             <img class="catalog__image catalog__image--small" src="./images/catalog/catalog-7.png"
               alt="Cat Energy PRO 500 г Рис" width="163" height="174">
             <div class="catalog__wrapper catalog__wrapper--primary">
@@ -213,17 +215,17 @@
                   <dd class="catalog__characteristics-number description-small">500 ₽</dd>
                 </div>
               </dl>
-              <button class="catalog__button--primary button" type="button">Заказать</button>
+              <button class="catalog__button button" type="button">Заказать</button>
             </div>
           </a>
         </li>
 
-        <li class="catalog__item catalog_item--emty">
-          <a href="#" class="catalog__link">
+        <li class="catalog__item catalog__item--emty">
+          <a class="catalog__link" href="#">
             <div class="catalog__wrapper">
               <p class="catalog__title text">Показать еще 100500 товаров</p>
-              <p class="catalog__description description-small"> На самом деле вкусов гораздо больше!</p>
-              <a href="#" class="catalog__button button">Показать все</a>
+              <p class="catalog__description description-small">На самом деле вкусов гораздо больше!</p>
+              <a class="catalog__button catalog__button--primary button" href="#">Показать все</a>
             </div>
           </a>
         </li>
@@ -238,7 +240,7 @@
           <td class="additional-products__size">1 упаковка (100 г)</td>
           <td class="additional-products__cost">200 ₽</td>
           <td class="additional-products__order">
-            <button class="additional-products__button--primary button" type="button">Заказать</button>
+            <button class="additional-products__button button" type="button">Заказать</button>
           </td>
         </tr>
         <tr>
@@ -246,7 +248,7 @@
           <td class="additional-products__size">5 литров</td>
           <td class="additional-products__cost">50 ₽</td>
           <td class="additional-products__order">
-            <button class="additional-products__button--primary button" type="button">Заказать</button>
+            <button class="additional-products__button button" type="button">Заказать</button>
           </td>
         </tr>
         <tr>
@@ -254,7 +256,7 @@
           <td class="additional-products__size">1 литр</td>
           <td class="additional-products__cost">100 ₽</td>
           <td class="additional-products__order">
-            <button class="additional-products__button--primary button" type="button">Заказать</button>
+            <button class="additional-products__button button" type="button">Заказать</button>
           </td>
         </tr>
         <tr>
@@ -262,7 +264,7 @@
           <td class="additional-products__size">1 упаковка (30 г)</td>
           <td class="additional-products__cost">300 ₽</td>
           <td class="additional-products__order">
-            <button class="additional-products__button--primary button" type="button">Заказать</button>
+            <button class="additional-products__button button" type="button">Заказать</button>
           </td>
         </tr>
 
@@ -286,14 +288,15 @@
     <section class="footer-contacts">
       <h2 class="visually-hidden">Контакты в соц сетях</h2>
       <div class="logo-text">
-        <a class="logo-text_image" href="#">
-          <img class="logo-text__icon" src="../source/images/logo/logo-text-1.svg" width="128" height="24" alt="Cat Energy Логотип">
+        <a class="logo-text__image" href="#">
+          <img class="logo-text__icon" src="../source/images/logo/logo-text-1.svg" width="128" height="24"
+            alt="Cat Energy Логотип">
         </a>
       </div>
       <div class="social">
         <ul class="social__list">
           <li class="social__item">
-            <a href="#" class="social__link social__link--vk">
+            <a class="social__link social__link--vk" href="https://vk.com/htmlacademy">
               <svg class="social__icon" aria-hidden="true" focusable="false" width="28" height="22"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -304,7 +307,7 @@
             </a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link social__link--youtube">
+            <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
               <svg class="social__icon" aria-hidden="true" focusable="false" width="28" height="22"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -315,9 +318,8 @@
             </a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link social__link--telegram">
-              <svg class="social__icon" aria-hidden="true" focusable="false" width="28" height="22"
-                xmlns="http://www.w3.org/2000/svg">
+            <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">
+              <svg class="social__icon" aria-hidden="true" focusable="false" width="28" height="22" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M23.4608 3.15291C23.6393 3.30222 23.7255 3.5349 23.6872 3.76448L21.0611 19.5214C21.0244 19.7411 20.8789 19.9273 20.6745 20.0159C20.47 20.1045 20.2346 20.0833 20.0493 19.9597L12.1708 14.7074C12.0177 14.6054 11.9145 14.4437 11.8862 14.2619C11.858 14.08 11.9074 13.8947 12.0223 13.751L14.633 10.4877L10.273 13.3944C10.077 13.525 9.82597 13.5407 9.61524 13.4353L4.36293 10.8092C4.12769 10.6915 3.98535 10.4449 4.0012 10.1824C4.01705 9.91983 4.18804 9.6921 4.43573 9.60364L22.8188 3.03826C23.038 2.95998 23.2822 3.00359 23.4608 3.15291ZM6.32626 10.3228L9.86168 12.0905L17.4231 7.0495C17.6925 6.86994 18.0525 6.91349 18.2712 7.1521C18.49 7.3907 18.5022 7.75314 18.3 8.00591L13.495 14.0121L19.9328 18.3039L22.2083 4.65058L6.32626 10.3228Z"
                   fill="currentColor" />
@@ -329,7 +331,7 @@
         </ul>
       </div>
       <div class="logo-developer">
-        <a class="logo-developer_link">
+        <a class="logo-developer__link" href="https://htmlacademy.ru/">
           <span class="logo-developer__description description-small">HTML Academy</span>
           <svg class="logo-developer__icon" aria-hidden="true" focusable="false" width="27" height="34"
             xmlns="http://www.w3.org/2000/svg">
