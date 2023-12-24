@@ -1,0 +1,31 @@
+.input-text {
+display: flex;
+width: 100%;
+gap: 15px;
+
+}
+
+.input-text__label {
+  color: #444444;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding-top: 14px;
+
+}
+
+
+.input-text__input {
+height: 43px;
+flex-grow: 1;
+color: #444444;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 0 13px;
+  border: 1px solid #E7E7E7;
+}

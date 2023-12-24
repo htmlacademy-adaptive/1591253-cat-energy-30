@@ -1,0 +1,7 @@
+.type-group {
+  padding: 22px 21px 11px;
+}
+
+.type-group__item:not(:last-child) {
+margin-bottom: 6px;
+}

@@ -1,0 +1,10 @@
+.inner-text {
+  @extend %reset;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  font-weight: $base-font-weight;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: $base-color-title;
+  margin: 0 20px;
+}

@@ -5,9 +5,22 @@
 @import "./global/global.scss";
 @import "./global/visually-hidden.scss";
 
+/* COMPONENTS */
+@import "./components/title.scss";
+@import "./components/inner-title.scss";
+@import "./components/inner-text.scss";
+@import "./components/title-middle.scss";
+@import "./components/caption.scss";
+@import "./components/description.scss";
+@import "./components/description-small.scss";
+@import "./components/text.scss";
+@import "./components/button.scss";
+@import "./components/input-text.scss";
+@import "./components/radio.scss";
+
+
 
 /* BLOCKS */
-@import "./blocks/components.scss";
 @import "./blocks/page.scss";
 @import "./blocks/main-header.scss";
 @import "./blocks/header.scss";
@@ -27,6 +40,10 @@
 @import "./blocks/logo-developer.scss";
 @import "./blocks/catalog.scss";
 @import "./blocks/additional-products.scss";
+@import "./blocks/main-form.scss";
+@import "./blocks/name-group.scss";
+@import "./blocks/type-group.scss";
+
 
 
 
