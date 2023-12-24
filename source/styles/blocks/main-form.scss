@@ -1,0 +1,21 @@
+.main-form__title {
+  margin-bottom: 20px;
+}
+
+
+.main-form__text {
+  margin-bottom: 20px;
+}
+
+.main-form__group {
+  @extend %reset;
+  list-style: none;
+  border: none;
+}
+
+.main-form__list {
+  @extend %reset;
+  list-style: none;
+}
+
+

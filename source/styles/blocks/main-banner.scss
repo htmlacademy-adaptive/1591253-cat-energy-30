@@ -1,0 +1,50 @@
+.main-banner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 480px;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.main-banner__title {
+  margin: 0;
+  color:#ffffff;
+  font-size: 36px;
+  line-height: 36px;
+
+}
+
+.main-banner__text {
+  color:#ffffff;
+  margin: 25px 0 29px;
+}
+
+.main-banner__button {
+  margin: 138px 20px 0;
+}
+
+.main-banner__wrapper {
+  position: relative;
+  box-sizing: border-box;
+  padding: 27px 20px 0;
+  min-height: 302px;
+  background-image: url("../../images/index-background-banner@1x.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: top center, top center;
+  background-color: #64A73C;
+}
+
+.main-banner__wrapper::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 280px;
+  height: 270px;
+  background-repeat: no-repeat;
+  background-image: url("../../images/index-banner@1x.png");
+  transform: translateX(-50%);
+}
+
